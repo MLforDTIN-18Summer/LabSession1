@@ -78,3 +78,15 @@
 	```sudo apt-get install python3.6```
 - **Pip install virtual env**
 	```pip install virtualenv```
+Steps:	
+	1. Install Python 3.6 => https://www.python.org/downloads/release/python-365/
+	2. Create a new virtual environment => python3 -m venv /path/to/new/virtual/environment
+	3. Activate the environment => C:\><venv>\Scripts\activate.bat
+	4. Install Sip => pip3 install SIP
+	5. Download PyQt4 package => https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4 and Install it C:\path\where\wheel\is\> pip install PyQt4-4.11.4-cp35-none-win_amd64.whl
+	6. Install all the dependencies: Numpy, Scipy, OpenCV, Scikit-learn, MatplotLib
+		=> pip3 install opencv-python
+		=> pip3 install scipy
+		=> pip3 install -U scikit-learn
+		=> python3 -mpip install matplotlib
+	7. Run the program!
